@@ -1,1 +1,7 @@
-# hey there! Another simple app to train some react capabilities
+# hey there
+
+## This is a simple app to train some react capabilities
+
+### And this is how this app looks like
+
+![alt text](public/print.png)
