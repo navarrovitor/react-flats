@@ -28,6 +28,8 @@
     "react/no-unused-state": "off",
     "react/function-component-definition": "off",
     "no-unused-vars": "off",
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/anchor-has-content": "off"
   }
 }

@@ -4,13 +4,13 @@ import Flat from "./Flat";
 const FlatList = (props) => {
   return (
     <div className="flat-list">
-      {props.flats.map((flat) => (
+      {props.flats.map((flat, index) => (
         <Flat
-          name={flat.name}
-          imageUrl={flat.imageUrl}
-          price={flat.price}
-          priceCurrency={flat.priceCurrency}
-          key={flat.id}
+          flat={flat}
+          index={index}
+          selectFlat={props.selectFlat}
+          selected={flat.name === props.selectedFlat.name}
+          key={flat.lat}
         />
       ))}
     </div>
