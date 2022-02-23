@@ -53,6 +53,33 @@ const flats = [
     lat: -23.562587,
     lng: -46.634426,
   },
+  {
+    name: "Paraíso no Sertão do Camburi",
+    imageUrl:
+      "https://naturam.com.br/wp-content/uploads/2020/08/diferencas-camburi-camburizinho-naturam-3.jpg",
+    priceCurrency: "R$",
+    price: 5000,
+    lat: -23.765782,
+    lng: -45.648949,
+  },
+  {
+    name: "Mansão modernista pé na areia em Barra do Sahy",
+    imageUrl:
+      "https://cdn.onekindesign.com/wp-content/uploads/2012/05/Paraty-House-01-1-Kind-Design.jpg",
+    priceCurrency: "R$",
+    price: 10.449,
+    lat: -23.772714,
+    lng: -45.699543,
+  },
+  // {
+  //   name: "",
+  //   imageUrl:
+  //     "",
+  //   priceCurrency: "R$",
+  //   price: 0,
+  //   lat: 0,
+  //   lng: 0,
+  // },
 ];
 
 export default flats;
